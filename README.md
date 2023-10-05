@@ -1,2 +1,3 @@
 # digitalTolkTest
-Code review test for Digital Tolk
+Overall code is good a liitle improvements was required. I have refactored the code and reduced line of code, in repository updated the function into multiple function to maintaine the coding standard.Code formatting is relatively standard with PSR-12 like styling, which is good. $request->__authenticatedUser are unconventional. Normally in Laravel, you'd use $request->user() to get the authenticated user. Login sould be in repository instead of controller like it was in distanceFeed function in controller. 
+I have also created the Unit test for the helper and repository function.
